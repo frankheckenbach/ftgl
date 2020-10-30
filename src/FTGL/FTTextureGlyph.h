@@ -74,7 +74,7 @@ class FTGL_EXPORT FTTextureGlyph : public FTGlyph
         virtual const FTPoint& Render(const FTPoint& pen, int renderMode);
 };
 
-#endif //__cplusplus
+#endif /* __cplusplus */
 
 FTGL_BEGIN_C_DECLS
 
@@ -95,5 +95,5 @@ FTGL_EXPORT FTGLglyph *ftglCreateTextureGlyph(FT_GlyphSlot glyph, int id,
 
 FTGL_END_C_DECLS
 
-#endif  //  __FTTextureGlyph__
+#endif  /*  __FTTextureGlyph__ */
 

@@ -63,5 +63,5 @@ class FTPixmapGlyphImpl : public FTGlyphImpl
 
 };
 
-#endif  //  __FTPixmapGlyphImpl__
+#endif  /*  __FTPixmapGlyphImpl__ */
 

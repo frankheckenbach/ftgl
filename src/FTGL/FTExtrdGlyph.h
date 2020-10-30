@@ -76,7 +76,7 @@ class FTGL_EXPORT FTExtrudeGlyph : public FTGlyph
 
 #define FTExtrdGlyph FTExtrudeGlyph
 
-#endif //__cplusplus
+#endif /* __cplusplus */
 
 FTGL_BEGIN_C_DECLS
 
@@ -100,5 +100,5 @@ FTGL_EXPORT FTGLglyph *ftglCreateExtrudeGlyph(FT_GlyphSlot glyph, float depth,
 
 FTGL_END_C_DECLS
 
-#endif  //  __FTExtrudeGlyph__
+#endif  /*  __FTExtrudeGlyph__ */
 

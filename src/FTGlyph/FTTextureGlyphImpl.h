@@ -84,5 +84,5 @@ class FTTextureGlyphImpl : public FTGlyphImpl
         static GLint activeTextureID;
 };
 
-#endif  //  __FTTextureGlyphImpl__
+#endif  /*  __FTTextureGlyphImpl__ */
 

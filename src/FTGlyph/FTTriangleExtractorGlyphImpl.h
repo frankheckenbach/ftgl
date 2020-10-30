@@ -55,5 +55,5 @@ class FTTriangleExtractorGlyphImpl : public FTGlyphImpl
         std::vector<float>& triangles_;
 };
 
-#endif  //  __FTTriangleExtractorGlyphImpl__
+#endif  /*  __FTTriangleExtractorGlyphImpl__ */
 

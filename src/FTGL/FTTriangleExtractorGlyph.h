@@ -72,7 +72,7 @@ class FTGL_EXPORT FTTriangleExtractorGlyph : public FTGlyph
 
 #define FTPolyGlyph FTPolygonGlyph
 
-#endif //__cplusplus
+#endif /* __cplusplus */
 
 FTGL_BEGIN_C_DECLS
 
@@ -93,5 +93,5 @@ FTGL_EXPORT FTGLglyph *ftglCreateTriangleExtractorGlyph(FT_GlyphSlot glyph, floa
 
 FTGL_END_C_DECLS
 
-#endif  //  __FTTriangleExtractorGlyph__
+#endif  /*  __FTTriangleExtractorGlyph__ */
 

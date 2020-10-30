@@ -140,7 +140,7 @@ class FTGL_EXPORT FTLayout
         FTLayoutImpl *impl;
 };
 
-#endif //__cplusplus
+#endif /* __cplusplus */
 
 FTGL_BEGIN_C_DECLS
 

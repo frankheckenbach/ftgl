@@ -64,7 +64,7 @@ class FTGL_EXPORT FTBitmapGlyph : public FTGlyph
         virtual const FTPoint& Render(const FTPoint& pen, int renderMode);
 };
 
-#endif //__cplusplus
+#endif /* __cplusplus */
 
 FTGL_BEGIN_C_DECLS
 
@@ -78,5 +78,5 @@ FTGL_EXPORT FTGLglyph *ftglCreateBitmapGlyph(FT_GlyphSlot glyph);
 
 FTGL_END_C_DECLS
 
-#endif  //  __FTBitmapGlyph__
+#endif  /*  __FTBitmapGlyph__ */
 

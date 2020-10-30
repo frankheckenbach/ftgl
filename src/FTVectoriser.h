@@ -310,4 +310,4 @@ class FTVectoriser
 };
 
 
-#endif  //  __FTVectoriser__
+#endif  /*  __FTVectoriser__ */

@@ -160,5 +160,5 @@ class FTSize
 
 };
 
-#endif  //  __FTSize__
+#endif  /*  __FTSize__ */
 

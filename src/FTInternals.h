@@ -34,7 +34,7 @@
 #include <stdio.h>
 
 
-// Fixes for deprecated identifiers in 2.1.5
+/* Fixes for deprecated identifiers in 2.1.5 */
 #ifndef FT_OPEN_MEMORY
     #define FT_OPEN_MEMORY (FT_Open_Flags)1
 #endif
@@ -50,10 +50,12 @@
 
 #ifdef _WIN32
 
-    // Under windows avoid including <windows.h> is overrated.
-    // Sure, it can be avoided and "name space pollution" can be
-    // avoided, but why? It really doesn't make that much difference
-    // these days.
+    /*
+	 * Under windows avoid including <windows.h> is overrated.
+     * Sure, it can be avoided and "name space pollution" can be
+     * avoided, but why? It really doesn't make that much difference
+     * these days.
+	 */
     #define  WIN32_LEAN_AND_MEAN
     #include <windows.h>
 
@@ -64,7 +66,7 @@
 
 #else
 
-    // Non windows platforms - don't require nonsense as seen above :-)
+    /* Non windows platforms - don't require nonsense as seen above :-) */
     #ifndef __gl_h_
         #ifdef SDL_main
             #include "SDL_opengl.h"
@@ -78,8 +80,10 @@
 
     #endif
 
-    // Required for compatibility with glext.h style function definitions of
-    // OpenGL extensions, such as in src/osg/Point.cpp.
+    /*
+	 * Required for compatibility with glext.h style function definitions of
+     * OpenGL extensions, such as in src/osg/Point.cpp.
+	 */
     #ifndef APIENTRY
         #define APIENTRY
     #endif
@@ -137,5 +141,5 @@ struct _FTGLlayout
 
 FTGL_END_C_DECLS
 
-#endif  //__FTINTERNALS_H__
+#endif  /* __FTINTERNALS_H__ */
 

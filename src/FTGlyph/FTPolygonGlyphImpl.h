@@ -62,5 +62,5 @@ class FTPolygonGlyphImpl : public FTGlyphImpl
         GLuint glList;
 };
 
-#endif  //  __FTPolygonGlyphImpl__
+#endif  /*  __FTPolygonGlyphImpl__ */
 

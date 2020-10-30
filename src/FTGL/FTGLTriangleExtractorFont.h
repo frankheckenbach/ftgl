@@ -84,7 +84,7 @@ class FTGL_EXPORT FTTriangleExtractorFont : public FTFont
 
 #define FTGLTriangleExtractorFont FTTriangleExtractorFont
 
-#endif //__cplusplus
+#endif /* __cplusplus */
 
 FTGL_BEGIN_C_DECLS
 
@@ -114,5 +114,5 @@ FTGL_EXPORT FTGLfont *ftglCreateTriangleExtractorFontFromMem(const unsigned char
 
 FTGL_END_C_DECLS
 
-#endif  //  __FTTriangleExtractorFont__
+#endif  /*  __FTTriangleExtractorFont__ */
 

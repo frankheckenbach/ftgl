@@ -148,5 +148,5 @@ class FTTextureFontImpl : public FTFontImpl
                                FTPoint position, FTPoint spacing, int mode);
 };
 
-#endif // __FTTextureFontImpl__
+#endif /* __FTTextureFontImpl__ */
 

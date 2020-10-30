@@ -158,5 +158,5 @@ class FTFontImpl
                                FTPoint position, FTPoint spacing, int mode);
 };
 
-#endif  //  __FTFontImpl__
+#endif  /*  __FTFontImpl__ */
 

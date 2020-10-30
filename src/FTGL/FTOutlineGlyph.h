@@ -70,7 +70,7 @@ class FTGL_EXPORT FTOutlineGlyph : public FTGlyph
         virtual const FTPoint& Render(const FTPoint& pen, int renderMode);
 };
 
-#endif //__cplusplus
+#endif /* __cplusplus */
 
 FTGL_BEGIN_C_DECLS
 
@@ -90,5 +90,5 @@ FTGL_EXPORT FTGLglyph *ftglCreateOutlineGlyph(FT_GlyphSlot glyph, float outset,
 
 FTGL_END_C_DECLS
 
-#endif  // __FTOutlineGlyph__
+#endif  /* __FTOutlineGlyph__ */
 

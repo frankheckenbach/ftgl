@@ -77,5 +77,5 @@ class FTExtrudeFontImpl : public FTFontImpl
         float front, back;
 };
 
-#endif // __FTExtrudeFontImpl__
+#endif /* __FTExtrudeFontImpl__ */
 

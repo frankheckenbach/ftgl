@@ -167,7 +167,7 @@ class FTGL_EXPORT FTSimpleLayout : public FTLayout
         float GetLineSpacing() const;
 };
 
-#endif //__cplusplus
+#endif /* __cplusplus */
 
 FTGL_BEGIN_C_DECLS
 
@@ -181,7 +181,7 @@ FTGL_EXPORT float ftglGetLayoutLineLength(FTGLlayout *);
 
 FTGL_EXPORT void ftglSetLayoutAlignment(FTGLlayout *, const int);
 FTGL_EXPORT int ftglGetLayoutAlignment(FTGLlayout *);
-FTGL_EXPORT int ftglGetLayoutAlignement(FTGLlayout *); // old typo
+FTGL_EXPORT int ftglGetLayoutAlignement(FTGLlayout *); /* old typo */
 
 FTGL_EXPORT void ftglSetLayoutLineSpacing(FTGLlayout *, const float);
 FTGL_EXPORT float ftglGetLayoutLineSpacing(FTGLlayout *);

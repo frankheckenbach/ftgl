@@ -30,7 +30,7 @@
 
 #include <ft2build.h>
 #include FT_FREETYPE_H
-//#include FT_CACHE_H
+/*#include FT_CACHE_H*/
 
 #include "FTGL/ftgl.h"
 #include <atomic>
@@ -124,7 +124,7 @@ class FTLibrary
          * Freetype library handle.
          */
         FT_Library* library;
-//      FTC_Manager* manager;
+/*      FTC_Manager* manager; */
 
         /**
          * Current error code. Zero means no error.
@@ -137,6 +137,6 @@ class FTLibrary
         std::atomic <int> LegacyOpenGLStateHandling;
 };
 
-#endif //__cplusplus
+#endif /* __cplusplus */
 
-#endif  //  __FTLibrary__
+#endif  /*  __FTLibrary__ */

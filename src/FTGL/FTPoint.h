@@ -268,7 +268,7 @@ class FTGL_EXPORT FTPoint
         FTGL_DOUBLE values[3];
 };
 
-#endif //__cplusplus
+#endif /* __cplusplus */
 
-#endif  //  __FTPoint__
+#endif  /*  __FTPoint__ */
 

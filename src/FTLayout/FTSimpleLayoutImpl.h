@@ -221,5 +221,5 @@ class FTSimpleLayoutImpl : public FTLayoutImpl
                             FTBBox *bounds);
 };
 
-#endif  //  __FTSimpleLayoutImpl__
+#endif  /*  __FTSimpleLayoutImpl__ */
 

@@ -83,7 +83,7 @@ class FTGL_EXPORT FTBitmapFont : public FTFont
 
 #define FTGLBitmapFont FTBitmapFont
 
-#endif //__cplusplus
+#endif /* __cplusplus */
 
 FTGL_BEGIN_C_DECLS
 
@@ -111,5 +111,5 @@ FTGL_EXPORT FTGLfont *ftglCreateBitmapFontFromMem(const unsigned char *bytes,
 
 FTGL_END_C_DECLS
 
-#endif  //  __FTBitmapFont__
+#endif  /*  __FTBitmapFont__ */
 

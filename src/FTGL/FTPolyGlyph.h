@@ -73,7 +73,7 @@ class FTGL_EXPORT FTPolygonGlyph : public FTGlyph
 
 #define FTPolyGlyph FTPolygonGlyph
 
-#endif //__cplusplus
+#endif /* __cplusplus */
 
 FTGL_BEGIN_C_DECLS
 
@@ -94,5 +94,5 @@ FTGL_EXPORT FTGLglyph *ftglCreatePolygonGlyph(FT_GlyphSlot glyph, float outset,
 
 FTGL_END_C_DECLS
 
-#endif  //  __FTPolygonGlyph__
+#endif  /*  __FTPolygonGlyph__ */
 

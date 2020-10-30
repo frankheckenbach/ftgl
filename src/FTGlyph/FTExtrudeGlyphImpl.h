@@ -65,5 +65,5 @@ class FTExtrudeGlyphImpl : public FTGlyphImpl
         GLuint glList;
 };
 
-#endif  //  __FTExtrudeGlyphImpl__
+#endif  /*  __FTExtrudeGlyphImpl__ */
 

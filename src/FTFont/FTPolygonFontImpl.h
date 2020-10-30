@@ -28,7 +28,7 @@
 #define __FTPolygonFontImpl__
 
 #include "FTFontImpl.h"
-// std lib
+/* std lib */
 #include <vector>
 
 class FTGlyph;
@@ -72,5 +72,5 @@ class FTPolygonFontImpl : public FTFontImpl
                                FTPoint position, FTPoint spacing, int mode);
 };
 
-#endif // __FTPolygonFontImpl__
+#endif /* __FTPolygonFontImpl__ */
 

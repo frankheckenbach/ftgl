@@ -61,17 +61,17 @@ public:
     FTUnicodeStringItr& operator++()
     {
         curPos = nextPos;
-        // unicode handling
+        /* unicode handling */
         switch (sizeof(T))
         {
-            case 1: // UTF-8
-                // get this character
+            case 1: /* UTF-8 */
+                /* get this character */
                 readUTF8(); break;
-            case 2: // UTF-16
+            case 2: /* UTF-16 */
                 readUTF16(); break;
-            case 4: // UTF-32
-                // fall through
-            default: // error condition really, but give it a shot anyway
+            case 4: /* UTF-32 */
+                /* fall through */
+            default: /* error condition really, but give it a shot anyway */
                 curChar = *nextPos++;
         }
         return *this;
@@ -147,7 +147,7 @@ private:
      */
     const T* nextPos;
 
-    // unicode magic numbers
+    /* unicode magic numbers */
     static const unsigned char utf8bytes[256];
     static const unsigned long offsetsFromUTF8[6];
     static const unsigned long highSurrogateStart;
@@ -179,15 +179,17 @@ template <typename T>
 const unsigned long FTUnicodeStringItr<T>::offsetsFromUTF8[6] = { 0x00000000UL, 0x00003080UL, 0x000E2080UL,
   0x03C82080UL, 0xFA082080UL, 0x82082080UL };
 
-// get a UTF8 character; leave the tracking pointer at the start of the
-// next character
-// not protected against invalid UTF8
+/*
+ * get a UTF8 character; leave the tracking pointer at the start of the
+ * next character
+ * not protected against invalid UTF8
+ */
 template <typename T>
 inline void FTUnicodeStringItr<T>::readUTF8()
 {
     unsigned int ch = 0;
     unsigned int extraBytesToRead = utf8bytes[(unsigned char)(*nextPos)];
-    // falls through
+    /* falls through */
     switch (extraBytesToRead)
     {
           case 6: ch += *nextPos++; ch <<= 6; /* remember, illegal UTF-8 */
@@ -201,7 +203,7 @@ inline void FTUnicodeStringItr<T>::readUTF8()
     curChar = ch;
 }
 
-// Magic numbers for UTF-16 conversions
+/* Magic numbers for UTF-16 conversions */
 template <typename T>
 const unsigned long FTUnicodeStringItr<T>::highSurrogateStart = 0xD800;
 template <typename T>
@@ -219,11 +221,11 @@ template <typename T>
 inline void FTUnicodeStringItr<T>::readUTF16()
 {
     unsigned int ch = *nextPos++;
-    // if we have the first half of the surrogate pair
+    /* if we have the first half of the surrogate pair */
     if (ch >= highSurrogateStart && ch <= highSurrogateEnd)
     {
         unsigned int ch2 = *curPos;
-        // complete the surrogate pair
+        /* complete the surrogate pair */
         if (ch2 >= lowSurrogateStart && ch2 <= lowSurrogateEnd)
         {
             ch = ((ch - highSurrogateStart) << highSurrogateShift)

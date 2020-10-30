@@ -65,5 +65,5 @@ class FTOutlineGlyphImpl : public FTGlyphImpl
         GLuint glList;
 };
 
-#endif  // __FTOutlineGlyphImpl__
+#endif  /* __FTOutlineGlyphImpl__ */
 

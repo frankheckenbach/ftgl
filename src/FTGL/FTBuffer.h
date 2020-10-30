@@ -121,7 +121,7 @@ class FTGL_EXPORT FTBuffer
         FTPoint pos;
 };
 
-#endif //__cplusplus
+#endif /* __cplusplus */
 
-#endif // __FTBuffer__
+#endif /* __FTBuffer__ */
 

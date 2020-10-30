@@ -63,7 +63,7 @@ class FTGL_EXPORT FTBufferGlyph : public FTGlyph
         virtual const FTPoint& Render(const FTPoint& pen, int renderMode);
 };
 
-#endif //__cplusplus
+#endif /* __cplusplus */
 
-#endif  //  __FTBufferGlyph__
+#endif  /*  __FTBufferGlyph__ */
 

@@ -174,7 +174,7 @@ class FTGL_EXPORT FTBBox
         FTPoint lower, upper;
 };
 
-#endif //__cplusplus
+#endif /* __cplusplus */
 
-#endif  //  __FTBBox__
+#endif  /*  __FTBBox__ */
 

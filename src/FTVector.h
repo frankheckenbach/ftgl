@@ -212,4 +212,4 @@ class FTVector
         value_type* Items;
 };
 
-#endif  //  __FTVector__
+#endif  /*  __FTVector__ */

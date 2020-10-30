@@ -119,7 +119,7 @@ class FTGL_EXPORT FTGlyph
         FTGlyphImpl *impl;
 };
 
-#endif //__cplusplus
+#endif /* __cplusplus */
 
 FTGL_BEGIN_C_DECLS
 
@@ -198,5 +198,5 @@ FTGL_EXPORT FT_Error ftglGetGlyphError(FTGLglyph* glyph);
 
 FTGL_END_C_DECLS
 
-#endif  //  __FTGlyph__
+#endif  /*  __FTGlyph__ */
 

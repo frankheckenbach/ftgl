@@ -77,5 +77,5 @@ class FTBufferFontImpl : public FTFontImpl
         int lastString;
 };
 
-#endif  //  __FTBufferFontImpl__
+#endif  /*  __FTBufferFontImpl__ */
 

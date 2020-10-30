@@ -27,7 +27,7 @@
 #define __FTTriangleExtractorFontImpl__
 
 #include "FTFontImpl.h"
-// std lib
+/* std lib */
 #include <vector>
 
 class FTGlyph;
@@ -73,5 +73,5 @@ class FTTriangleExtractorFontImpl : public FTFontImpl
                                FTPoint position, FTPoint spacing, int mode);
 };
 
-#endif // __FTPolygonFontImpl__
+#endif /* __FTPolygonFontImpl__ */
 

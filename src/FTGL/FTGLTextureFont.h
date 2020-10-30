@@ -83,7 +83,7 @@ class  FTGL_EXPORT FTTextureFont : public FTFont
 
 #define FTGLTextureFont FTTextureFont
 
-#endif //__cplusplus
+#endif /* __cplusplus */
 
 FTGL_BEGIN_C_DECLS
 
@@ -112,5 +112,5 @@ FTGL_EXPORT FTGLfont *ftglCreateTextureFontFromMem(const unsigned char *bytes,
 
 FTGL_END_C_DECLS
 
-#endif // __FTTextureFont__
+#endif /* __FTTextureFont__ */
 

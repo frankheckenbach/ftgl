@@ -48,5 +48,5 @@ class FTBufferGlyphImpl : public FTGlyphImpl
         FTBuffer *buffer;
 };
 
-#endif  //  __FTBufferGlyphImpl__
+#endif  /*  __FTBufferGlyphImpl__ */
 

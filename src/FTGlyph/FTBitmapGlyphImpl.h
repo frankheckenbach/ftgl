@@ -68,5 +68,5 @@ class FTBitmapGlyphImpl : public FTGlyphImpl
         unsigned char* data;
 };
 
-#endif  //  __FTBitmapGlyphImpl__
+#endif  /*  __FTBitmapGlyphImpl__ */
 

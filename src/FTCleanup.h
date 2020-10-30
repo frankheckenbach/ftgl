@@ -100,5 +100,5 @@ class FTCleanup
         std::set<FT_Face **> cleanupFT_FaceItems;
 };
 
-#endif  //  __FTCleanup__
+#endif  /*  __FTCleanup__ */
 

@@ -55,7 +55,9 @@ class FTCharToGlyphIndexMap
         typedef unsigned long CharacterCode;
         typedef signed long GlyphIndex;
 
-        // XXX: always ensure that 1 << (3 * BucketIdxBits) >= UnicodeValLimit
+        /*
+		 * XXX: always ensure that 1 << (3 * BucketIdxBits) >= UnicodeValLimit
+		 */
         static const int BucketIdxBits = 7;
         static const int BucketIdxSize = 1 << BucketIdxBits;
         static const int BucketIdxMask = BucketIdxSize - 1;
@@ -70,7 +72,7 @@ class FTCharToGlyphIndexMap
 
         virtual ~FTCharToGlyphIndexMap()
         {
-            // Free all buckets
+            /* Free all buckets */
             clear();
         }
 
@@ -142,5 +144,5 @@ class FTCharToGlyphIndexMap
         GlyphIndex*** Indices;
 };
 
-#endif  //  __FTCharToGlyphIndexMap__
+#endif  /*  __FTCharToGlyphIndexMap__ */
 

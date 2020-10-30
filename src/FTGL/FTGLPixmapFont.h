@@ -83,7 +83,7 @@ class FTGL_EXPORT FTPixmapFont : public FTFont
 
 #define FTGLPixmapFont FTPixmapFont
 
-#endif // __cplusplus
+#endif /* __cplusplus */
 
 FTGL_BEGIN_C_DECLS
 
@@ -112,5 +112,5 @@ FTGL_EXPORT FTGLfont *ftglCreatePixmapFontFromMem(const unsigned char *bytes,
 
 FTGL_END_C_DECLS
 
-#endif  //  __FTPixmapFont__
+#endif  /*  __FTPixmapFont__ */
 

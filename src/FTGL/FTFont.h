@@ -399,7 +399,7 @@ class FTGL_EXPORT FTFont
         FTFontImpl *impl;
 };
 
-#endif //__cplusplus
+#endif /* __cplusplus */
 
 FTGL_BEGIN_C_DECLS
 
@@ -618,5 +618,5 @@ FTGL_EXPORT FT_Error ftglGetFontError(FTGLfont* font);
 
 FTGL_END_C_DECLS
 
-#endif  //  __FTFont__
+#endif  /*  __FTFont__ */
 

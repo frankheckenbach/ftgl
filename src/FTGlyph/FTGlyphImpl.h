@@ -60,5 +60,5 @@ class FTGlyphImpl
         FT_Error err;
 };
 
-#endif  //  __FTGlyphImpl__
+#endif  /*  __FTGlyphImpl__ */
 

@@ -152,4 +152,4 @@ class FTGlyphContainer
 };
 
 
-#endif  //  __FTGlyphContainer__
+#endif  /*  __FTGlyphContainer__ */

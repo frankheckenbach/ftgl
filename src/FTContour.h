@@ -123,7 +123,7 @@ class FTContour
          */
         void SetParity(int parity);
 
-        // FIXME: this should probably go away.
+        /* FIXME: this should probably go away. */
         void buildFrontOutset(float outset);
         void buildBackOutset(float outset);
 
@@ -205,5 +205,5 @@ class FTContour
         bool clockwise;
 };
 
-#endif // __FTContour__
+#endif /* __FTContour__ */
 

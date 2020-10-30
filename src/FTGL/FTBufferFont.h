@@ -79,7 +79,7 @@ class FTGL_EXPORT FTBufferFont : public FTFont
         virtual FTGlyph* MakeGlyph(FT_GlyphSlot slot);
 };
 
-#endif //__cplusplus
+#endif /* __cplusplus */
 
 FTGL_BEGIN_C_DECLS
 
@@ -95,5 +95,5 @@ FTGL_EXPORT FTGLfont *ftglCreateBufferFont(const char *file);
 
 FTGL_END_C_DECLS
 
-#endif  //  __FTBufferFont__
+#endif  /*  __FTBufferFont__ */
 

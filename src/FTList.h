@@ -133,5 +133,5 @@ class FTList
         Node* tail;
 };
 
-#endif // __FTList__
+#endif /* __FTList__ */
 

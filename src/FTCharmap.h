@@ -162,4 +162,4 @@ class FTCharmap
 };
 
 
-#endif  //  __FTCharmap__
+#endif  /*  __FTCharmap__ */

@@ -58,5 +58,5 @@ class FTBitmapFontImpl : public FTFontImpl
                                FTPoint position, FTPoint spacing, int mode);
 };
 
-#endif  //  __FTBitmapFontImpl__
+#endif  /*  __FTBitmapFontImpl__ */
 

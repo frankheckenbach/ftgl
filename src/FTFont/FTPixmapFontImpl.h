@@ -56,5 +56,5 @@ class FTPixmapFontImpl : public FTFontImpl
                                FTPoint position, FTPoint spacing, int mode);
 };
 
-#endif  //  __FTPixmapFontImpl__
+#endif  /*  __FTPixmapFontImpl__ */
 

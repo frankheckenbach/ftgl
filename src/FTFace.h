@@ -178,4 +178,4 @@ class FTFace
 };
 
 
-#endif  //  __FTFace__
+#endif  /*  __FTFace__ */

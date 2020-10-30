@@ -52,5 +52,5 @@ class FTLayoutImpl
         FT_Error err;
 };
 
-#endif  //  __FTLayoutImpl__
+#endif  /*  __FTLayoutImpl__ */
 
