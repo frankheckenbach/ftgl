@@ -88,21 +88,21 @@ void ftglGetLayoutBBox(FTGLlayout *l, const char * s, float c[6])
     c[3] = upper.Xf(); c[4] = upper.Yf(); c[5] = upper.Zf();
 }
 
-float ftglGetLayoutHeight(FTGLlayout *l, const char * s)
+float ftglGetLayoutHeight(FTGLlayout *l, const char *s)
 {
     FTBBox ret = _ftglGetLayoutBBox(l, s);
     FTPoint lower = ret.Lower(), upper = ret.Upper();
     return upper.Yf() - lower.Yf();
 }
 
-float ftglGetLayoutWidth(FTGLlayout *l, const char * s)
+float ftglGetLayoutWidth(FTGLlayout *l, const char *s)
 {
     FTBBox ret = _ftglGetLayoutBBox(l, s);
     FTPoint lower = ret.Lower(), upper = ret.Upper();
     return upper.Xf() - lower.Xf();
 }
 
-float ftglGetLayoutDepth(FTGLlayout *l, const char * s)
+float ftglGetLayoutDepth(FTGLlayout *l, const char *s)
 {
     FTBBox ret = _ftglGetLayoutBBox(l, s);
     FTPoint lower = ret.Lower(), upper = ret.Upper();

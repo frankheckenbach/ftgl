@@ -173,6 +173,7 @@ FTGL_EXPORT void ftglGetLayoutBBox(FTGLlayout *layout, const char* string,
  *
  * @param layout  An FTGLlayout* object.
  * @param string  A char buffer
+ * @return  The height of the layout
  */
 FTGL_EXPORT float ftglGetLayoutHeight(FTGLlayout *layout, const char* string);
 
@@ -181,6 +182,7 @@ FTGL_EXPORT float ftglGetLayoutHeight(FTGLlayout *layout, const char* string);
  *
  * @param layout  An FTGLlayout* object.
  * @param string  A char buffer
+ * @return  The width of the layout
  */
 FTGL_EXPORT float ftglGetLayoutWidth(FTGLlayout *layout, const char* string);
 
@@ -189,6 +191,7 @@ FTGL_EXPORT float ftglGetLayoutWidth(FTGLlayout *layout, const char* string);
  *
  * @param laymout  An FTGLlayout* object.
  * @param string  A char buffer
+ * @return  The depth of the layout
  */
 FTGL_EXPORT float ftglGetLayoutDepth(FTGLlayout *layout, const char* string);
 
