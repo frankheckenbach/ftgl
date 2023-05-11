@@ -88,6 +88,27 @@ void ftglGetLayoutBBox(FTGLlayout *l, const char * s, float c[6])
     c[3] = upper.Xf(); c[4] = upper.Yf(); c[5] = upper.Zf();
 }
 
+float ftglGetLayoutHeight(FTGLlayout *l, const char * s)
+{
+    FTBBox ret = _ftglGetLayoutBBox(l, s);
+    FTPoint lower = ret.Lower(), upper = ret.Upper();
+    return upper.Yf() - lower.Yf();
+}
+
+float ftglGetLayoutWidth(FTGLlayout *l, const char * s)
+{
+    FTBBox ret = _ftglGetLayoutBBox(l, s);
+    FTPoint lower = ret.Lower(), upper = ret.Upper();
+    return upper.Xf() - lower.Xf();
+}
+
+float ftglGetLayoutDepth(FTGLlayout *l, const char * s)
+{
+    FTBBox ret = _ftglGetLayoutBBox(l, s);
+    FTPoint lower = ret.Lower(), upper = ret.Upper();
+    return upper.Zf() - lower.Zf();
+}
+
 // virtual void FTLayout::Render(const char* string, int renderMode);
 C_FUN(void, ftglRenderLayout, (FTGLlayout *l, const char *s, int r),
       return, Render, (s, -1, FTPoint(), r));
